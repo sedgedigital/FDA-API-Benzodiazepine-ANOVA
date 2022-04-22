@@ -2,13 +2,13 @@
 
 The project used the FDA Adverse Event Reporting System (FAERS) database containing information on adverse event and medication error reports submitted to the FDA (https://open.fda.gov/apis/drug/event/).
 
-## The analysis addresses two components of the data:
+## The analysis:
 1. Evaluating seasonality in the Benzodiazepine pharmacological class of medications.  The idea is that if there is an increase in adverse event reports during certain months then maybe that is tied to a greater number of prescriptions written during that period, and perhaps a seasonal need for the medication; like greater depression and anxiety during the winter months.
-2. Jaime - add a description of your project here !
 
-## The data was used to answer two questions:
+
+## The data were used to answer the following question:
 1. Are there more adverse event reports for benzodiazepine medications during the winter months?
-2. Jamie - Fill in your question here!
+
 
 ## Benzodiazepine Analysis
 ### Medication
@@ -26,10 +26,4 @@ Multiple API calls were used to create a dataset for analysis.  The API query wa
 ### Findings
 The hypothesis was that there may be a greater number of adverse events for benzodiazapines in the winter months because more of the medication is prescribed during that time, perhaps related to seasonal depression in the winter.  Indeed, we found that there is an statistically significant increase in benzodiazapine adverse event reports during the winter months from 2015 - 2021 (specifically, December, January and February).  And the greatest number of reports came from patients between the ages of 50-69.  The patients in this age group also showed statistically significant higher adverse report counts during the same months.  Although the API doesn't provide data on count of prescriptions written, it is plausible to think that there is a seasonality effect in benzodiazepine issuance.
 
-## Jamie's Analysis
-### Description
-
-### Analysis
-
-### Findings
 
